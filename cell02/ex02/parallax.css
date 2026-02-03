@@ -1,0 +1,49 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.parallax {
+  height: 100vh;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.parallax-1 {
+  background-image: url("https://thethaiger.com/th/wp-content/uploads/2026/01/space_1032630-1737.jpg");
+}
+
+.parallax-2 {
+  background-image: url("https://bp-vod-img.thairath.co.th/tos-sgcomm1-v-5f5b99398e2407ad-sg/1b7ec676-9545-4b29-ab73-ff75946a0fae.jpg~tplv-vod-rs:720:0.webp");
+}
+
+.text {
+  color: white;
+  font-size: 2rem;
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 20px 40px;
+  text-align: center;
+}
+
+.content {
+  height: 400px;
+  background-color: black;
+  color: white;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.content h2 {
+  margin-bottom: 10px;
+}
