@@ -9,11 +9,12 @@ body {
   padding: 20px;
   background-color: white;
   text-align: center;
-  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  border: 1px solid #e0e0e0;
 }
 
 .card-title {
   margin-bottom: 15px;
+  font-size: 1.4em;
 }
 
 .layout {
@@ -31,36 +32,45 @@ body {
 }
 
 .profile-pic {
-  width: 150px;
-  height: 150px;
-  border-radius: 50%;
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
 }
 
 .login {
   font-weight: bold;
-  margin-top: 10px;
+  font-size: 1.5em;
+  margin-top: 15px;
 }
 
 .description {
   font-size: 14px;
-  color: #666;
+  color: #888;
+  margin-top: 5px;
 }
 
 .socials img {
-  width: 30px;
-  height: 30px;
+  width: 24px;
+  height: 24px;
   margin: 0 5px;
   cursor: pointer;
 }
 
 .contact-btn {
-  padding: 8px 20px;
+  padding: 10px 30px;
   border: none;
-  background-color: #007bff;
+  background-color: #222;
   color: white;
   cursor: pointer;
+  font-size: 14px;
 }
 
 .contact-btn:hover {
-  background-color: #0056b3;
+  background-color: #444;
+}
+
+.location {
+  font-size: 14px;
+  color: #000;
+  margin-top: 8px;
 }
