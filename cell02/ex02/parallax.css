@@ -1,0 +1,49 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.parallax {
+  height: 100vh;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.parallax-1 {
+  background-image: url("https://thethaiger.com/th/wp-content/uploads/2026/01/A-compilation-of-groundbreaking-policies-by-Tae-Mongkolkitt-the-Prime-Minister-candidate-of-the-New-Alternative-Party.jpg");
+}
+
+.parallax-2 {
+  background-image: url("https://mthai.com/app/uploads/2020/08/74.jpg");
+}
+
+.text {
+  color: white;
+  font-size: 2rem;
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 20px 40px;
+  text-align: center;
+}
+
+.content {
+  height: 400px;
+  background-color: black;
+  color: white;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.content h2 {
+  margin-bottom: 10px;
+}
